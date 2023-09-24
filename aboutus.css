@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    display: block;
+}
+
+.heroPage {
+    background-image: url("image/bugatti.jpg");
+    background-position: 25%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 41rem;
+    position: relative;
+    width: 100%;
+}
+
+.heroPage-overlay {
+    background-color: hsla(0, 0%, 100%, .92);
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+}
+
+.heroPage-txt {
+    color: #010103;
+    display: flex;
+    flex-direction: column;
+    height: 21rem;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    z-index: 3;
+}
+
+.heroPage-txt h3 {
+    font-size: 3.6rem;
+    margin-bottom: 0.5rem;
+}
+
+.heroPage-txt p {
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.heroPage-txt p a {
+    color: black;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+.heroPage-txt p a:hover {
+    color: #1b48ff;
+}
+
+.aboutMain {
+    align-items: center;
+    display: flex;
+    gap: 5rem;
+    margin: 10rem auto;
+    max-width: 90rem;
+}
+
+.aboutMain-img {
+    height: 23rem;
+    width: 33rem;
+    border-radius: 10rem;
+
+}
+
+.aboutMain-txt {
+    color: #010103;
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutMain-txt h3 {
+    font-family: Rubik, sans-serif;
+    font-size: 2.2rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.aboutMain-txt h2 {
+    font-size: 4.2rem;
+    line-height: 1.2;
+}
+
+.aboutMain-txt p {
+    color: #706f7b;
+    font-family: Rubik, sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    margin-bottom: 4rem;
+    margin-top: 2rem;
+}
+
+.aboutMain-txtIcons {
+    grid-gap: 4rem;
+    display: grid;
+    gap: 4rem;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.aboutMain-txtIcons-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutMain-txtIcons-box img {
+    width: 7rem;
+}
+
+.aboutMain-txtIcons-box span {
+    align-items: center;
+    display: flex;
+    gap: 1rem;
+}
+
+.aboutMain-txtIcons-box span h4 {
+    font-size: 2.6rem;
+    color: #0613439a;
+}
+
+.aboutMain-txt p {
+    color: #706f7b;
+    font-family: Rubik, sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    margin-bottom: 4rem;
+    margin-top: 2rem;
+}
+
+.book-banner {
+    background-image: url("image/bugatti.jpg");
+    display: flex;
+    height: 20rem;
+    margin-top: 7rem;
+    position: relative;
+    width: 100%;
+}
+
+.book-bannerOverlay {
+    background-color: #2d2d2d;
+    height: 100%;
+    opacity: .89;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+}
+
+.txtContent {
+    align-items: center;
+    color: #fff;
+    display: flex;
+    gap: 5rem;
+    height: 20rem;
+    position: relative;
+    width: 100%;
+    z-index: 5;
+}
+
+.txtContent h2 {
+    font-weight: bolder;
+    font-size: 2.7em;
+    text-align: justify;
+}
+
+.txtContent span {
+    align-items: center;
+    color: #f8f8f8;
+    display: flex;
+    font-size: 2.7rem;
+    gap: 1rem;
+    white-space: nowrap;
+}
+
+.txtContent span h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.fa-phone {
+    color: rgb(42, 119, 214);
+}

@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    display: block;
+}
+
+.heroPage {
+    background-image: url("image/bugatti.jpg");
+    background-position: 25%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 41rem;
+    position: relative;
+    width: 100%;
+}
+
+.heroPage-overlay {
+    background-color: hsla(0, 0%, 100%, .92);
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+}
+
+.heroPage-txt {
+    color: #010103;
+    display: flex;
+    flex-direction: column;
+    height: 21rem;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    z-index: 3;
+}
+
+.heroPage-txt h3 {
+    font-size: 3.6rem;
+    margin-bottom: 0.5rem;
+}
+
+.heroPage-txt p {
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.heroPage-txt p a {
+    color: black;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+.heroPage-txt p a:hover {
+    color: #1b48ff;
+}
+
+.teamContainer {
+    grid-gap: 3rem;
+    align-items: center;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    margin: 0 auto;
+    padding: 6rem 2rem;
+    text-align: center;
+    width: 60rem;
+}
+
+.teamContainer-box {
+    background-color: #fff;
+    box-shadow: 0 20px 10px 0 rgba(0, 0, 0, .08);
+    width: 18rem;
+}
+
+.teamContainer-boxImg {
+    background-color: #f6f6f6;
+    height: auto;
+    width: 100%;
+}
+
+.teamContainer-boxImg img {
+    width: 50%;
+}
+
+.teamContainer-boxDescrpt {
+    color: #010103;
+    padding: 3rem;
+}
+
+.teamContainer-boxDescrpt h3 {
+    font-size: 2.2rem;
+}
+
+.teamContainer-boxDescrpt p {
+    color: #777;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.book-banner {
+    background-image: url("image/bugatti.jpg");
+    display: flex;
+    height: 20rem;
+    margin-top: 7rem;
+    position: relative;
+    width: 100%;
+}
+
+.book-bannerOverlay {
+    background-color: #2d2d2d;
+    height: 100%;
+    opacity: .89;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+}
+
+.txtContent {
+    align-items: center;
+    color: #fff;
+    display: flex;
+    gap: 5rem;
+    height: 20rem;
+    position: relative;
+    width: 100%;
+    z-index: 5;
+}
+
+.txtContent h2 {
+    font-weight: bolder;
+    font-size: 2.7em;
+    text-align: justify;
+}
+
+.txtContent span {
+    align-items: center;
+    color: #f8f8f8;
+    display: flex;
+    font-size: 2.7rem;
+    gap: 1rem;
+    white-space: nowrap;
+}
+
+.txtContent span h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.fa-phone {
+    color: rgb(42, 119, 214);
+}

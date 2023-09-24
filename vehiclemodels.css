@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    display: block;
+}
+
+.heroPage {
+    background-image: url("image/bugatti.jpg");
+    background-position: 25%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 41rem;
+    position: relative;
+    width: 100%;
+}
+
+.heroPage-overlay {
+    background-color: hsla(0, 0%, 100%, .92);
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+}
+
+.heroPage-txt {
+    color: #010103;
+    display: flex;
+    flex-direction: column;
+    height: 21rem;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    z-index: 3;
+}
+
+.heroPage-txt h3 {
+    font-size: 3.6rem;
+    margin-bottom: 0.5rem;
+}
+
+.heroPage-txt p {
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.heroPage-txt p a {
+    color: black;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+.heroPage-txt p a:hover {
+    color: #1b48ff;
+}
+
+.modelsDiv {
+    grid-gap: 3rem;
+    align-items: center;
+    display: grid;
+    gap: 3rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    margin: 0 auto;
+    padding: 10rem 0;
+    text-align: center;
+}
+
+@media (max-width:1150px) {
+    .modelsDiv {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.modelsDiv-boxes {
+    border: 1px solid #d5d5d5;
+    border-radius: 0.3rem;
+    display: flex;
+    flex-direction: column;
+    width: 25rem;
+}
+
+.modelsDiv-boxesImg {
+    border-radius: 0.3rem;
+    height: 50%;
+    width: 100%;
+}
+
+.modelsDiv-boxesImg img {
+    height: 27rem;
+    width: 100%;
+}
+
+.modelsDiv-boxesDescription {
+    color: #010103;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 3rem;
+}
+
+.modelsDiv-boxesDescription-namePrice {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.modelsDiv-boxesDescription-namePrice-name {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: left;
+}
+
+.modelsDiv-boxesDescription-namePrice-name p {
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+
+.modelsDiv-boxesDescription-namePrice-name span {
+    display: flex;
+    gap: 0.4rem;
+}
+
+.modelsDiv-boxesDescription-namePrice-price {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+.modelsDiv-boxesDescription-namePrice-price h4 {
+    font-size: 2rem;
+}
+
+.modelsDiv-boxesDescription-namePrice-price p {
+    font-size: 1.7rem;
+}
+
+.modelsDiv-boxesDescription-namePrice-details {
+    grid-row-gap: 2rem;
+    grid-column-gap: 7rem;
+    border-bottom: 1px solid #c6c6c6;
+    column-gap: 7rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 2rem auto;
+    padding-bottom: 2.5rem;
+    row-gap: 2rem;
+}
+
+.modelsDiv-boxesDescription-namePrice-details span {
+    color: #777;
+    font-size: 1.8rem;
+    font-weight: 500;
+    text-align: left;
+}
+
+.modelsDiv-boxesDescription-namePrice-btn {
+    background-color: #1574f8;
+    border: 2px solid #1a55df;
+    border-radius: 0.3rem;
+    box-shadow: 0 10px 15px 0 rgba(255, 83, 48, .35);
+    cursor: pointer;
+    font-size: 1.8rem;
+    padding: 1.8rem 3rem;
+    transition: all .3s;
+}
+
+.modelsDiv-boxesDescription-namePrice-btn a {
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.book-banner {
+    background-image: url("image/bugatti.jpg");
+    display: flex;
+    height: 20rem;
+    margin-top: 7rem;
+    position: relative;
+    width: 100%;
+}
+
+.book-bannerOverlay {
+    background-color: #2d2d2d;
+    height: 100%;
+    opacity: .89;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+}
+
+.txtContent {
+    align-items: center;
+    color: #fff;
+    display: flex;
+    gap: 5rem;
+    height: 20rem;
+    position: relative;
+    width: 100%;
+    z-index: 5;
+}
+
+.txtContent h2 {
+    font-weight: bolder;
+    font-size: 2.7em;
+    text-align: justify;
+}
+
+.txtContent span {
+    align-items: center;
+    color: #f8f8f8;
+    display: flex;
+    font-size: 2.7rem;
+    gap: 1rem;
+    white-space: nowrap;
+}
+
+.txtContent span h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.fa-phone {
+    color: rgb(42, 119, 214);
+}

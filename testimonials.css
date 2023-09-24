@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    display: block;
+}
+
+.heroPage {
+    background-image: url("image/bugatti.jpg");
+    background-position: 25%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 41rem;
+    position: relative;
+    width: 100%;
+}
+
+.heroPage-overlay {
+    background-color: hsla(0, 0%, 100%, .92);
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+}
+
+.heroPage-txt {
+    color: #010103;
+    display: flex;
+    flex-direction: column;
+    height: 21rem;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    z-index: 3;
+}
+
+.heroPage-txt h3 {
+    font-size: 3.6rem;
+    margin-bottom: 0.5rem;
+}
+
+.heroPage-txt p {
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.heroPage-txt p a {
+    color: black;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+.heroPage-txt p a:hover {
+    color: #1b48ff;
+}
+
+.testimonials-section {
+    background-color: #f8f8f8;
+    color: #010103;
+    padding: 10rem 0;
+}
+
+.testimonialsContent {
+    display: flex;
+    flex-direction: column;
+}
+
+.testimonialsContent-title {
+    margin: 0 auto 5rem;
+    max-width: 70rem;
+    text-align: center;
+}
+
+.testimonialsContent-title h4 {
+    font-family: Rubik, sans-serif;
+    font-size: 2.2rem;
+    font-weight: 500;
+}
+
+.testimonialsContent-title h2 {
+    font-size: 4.2rem;
+    margin-bottom: 1.4rem;
+}
+
+.testimonialsContent-title p {
+    color: #706f7b;
+    font-family: Rubik, sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.4;
+}
+
+.allTestimonials {
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    padding: 3rem;
+    width: 100%;
+}
+
+.allTestimonials-box {
+    background-color: #fff;
+    box-shadow: 0 20px 40px 0 rgba(0, 0, 0, .08);
+    padding: 5.5rem;
+    position: relative;
+    width: 54rem;
+}
+
+.book-banner {
+    background-image: url("image/bugatti.jpg");
+    display: flex;
+    height: 20rem;
+    margin-top: 7rem;
+    position: relative;
+    width: 100%;
+}
+
+.book-bannerOverlay {
+    background-color: #2d2d2d;
+    height: 100%;
+    opacity: .89;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+}
+
+.txtContent {
+    align-items: center;
+    color: #fff;
+    display: flex;
+    gap: 5rem;
+    height: 20rem;
+    position: relative;
+    width: 100%;
+    z-index: 5;
+}
+
+.txtContent h2 {
+    font-weight: bolder;
+    font-size: 2.7em;
+    text-align: justify;
+}
+
+.txtContent span {
+    align-items: center;
+    color: #f8f8f8;
+    display: flex;
+    font-size: 2.7rem;
+    gap: 1rem;
+    white-space: nowrap;
+}
+
+.txtContent span h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.fa-phone {
+    color: rgb(42, 119, 214);
+}
